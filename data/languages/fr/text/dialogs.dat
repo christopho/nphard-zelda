@@ -1,0 +1,18 @@
+dialog{
+  id = "_treasure.hookshot.1",
+  icon = 6,
+  text = [[
+Tu as trouvé le Grappin !
+Appuie sur X pour voler vers des
+endroits inaccessibles !
+]]
+}
+
+dialog{
+  id = "you_win",
+   text = [[
+Félicitations !
+Vous venez de résoudre un problème
+NP-difficile !
+]]
+}

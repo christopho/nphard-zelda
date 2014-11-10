@@ -4,20 +4,22 @@
 
 local game_manager = require("scripts/game_manager")
 
+local solarus_logo = require("scripts/menus/solarus_logo")
+local language_menu = require("scripts/menus/language")
+  
 function sol.main:on_started()
   -- This function is called when Solarus starts.
   print("This is a sample quest for Solarus.")
 
-  -- Setting a language is useful to display text and dialogs.
-  sol.language.set_language("en")
-
-  local solarus_logo = require("menus/solarus_logo")
-
   -- Show the Solarus logo initially.
   sol.menu.start(self, solarus_logo)
   solarus_logo.on_finished = function()
+    sol.menu.start(self, language_menu)
+  end
+
+  language_menu.on_finished = function()
     local game = game_manager:create("savegame_file_name")
     game:start()
   end
-
+ 
 end

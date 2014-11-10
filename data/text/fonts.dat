@@ -4,7 +4,7 @@ font{
 }
 
 font{
-  id = "fixed",
+  id = "minecraftia",
   file = "text/minecraftia.ttf",
   size = 8,
 }
