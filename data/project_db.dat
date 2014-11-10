@@ -84,6 +84,7 @@ sprite{ id = "enemies/enemy_killed", description = "Enemy killed" }
 sprite{ id = "enemies/tentacle", description = "Enemy: Tentacle" }
 sprite{ id = "menus/hero_head", description = "Menu: hero head" }
 sprite{ id = "entities/big_chest", description = "Chest (big)" }
+sprite{ id = "entities/hint_stone", description = "Hint stone" }
 
 music{ id = "agahnim", description = "Agahnim theme" }
 music{ id = "beginning", description = "Beginning" }

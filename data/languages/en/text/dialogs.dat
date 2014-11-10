@@ -3,15 +3,57 @@ dialog{
   icon = 6,
   text = [[
 You found the Hookshot!
-Press X to fly to
-inaccessible places!
+Press X to fly to inaccessible places!
 ]]
 }
 
 dialog{
   id = "you_win",
-   text = [[
+  text = [[
 Congratulations!
 You just solved an NP-hard problem!
+]]
+}
+
+dialog{
+  id = "3sat_puzzle_instructions",
+  text = [[
+Welcome to the NP-Zelda puzzle.
+
+
+
+Some geeky mathematicians proved that
+solving mazes in Zelda can be NP-hard.
+This mini-game is an implementation of their
+proof!
+The maze you are going to traverse
+is indeed equivalent to a well-known
+NP-hard problem called 3-SAT.
+
+To play, just take the hookshot
+in the big chest and try to reach
+the end of the room.
+
+But beware: if you fall in a hole,
+you have to restart everything!
+
+
+This is slightly boring, but
+computationally fascinating!
+Good luck!
+]]
+}
+
+dialog{
+  id = "credits",
+  text = [[
+Credits:
+
+
+
+- NP-hardness proof by G. Aloupis,
+E. D. Demaine, A. Guo and G. Viglietta.
+- Maze design by El Jj.
+- Engine and maze implementation by Christopho.
 ]]
 }

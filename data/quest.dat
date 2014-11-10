@@ -12,6 +12,6 @@ quest{
   write_dir = "np_zelda",
 
   -- Title of the window. You should probably put the title of your game here.
-  title_bar = "NP-hard Zelda"
+  title_bar = "NP-hard Zelda - Solarus engine"
 }
 

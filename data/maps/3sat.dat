@@ -4057,8 +4057,8 @@ block{
 
 chest{
   layer = 1,
-  x = 72,
-  y = 61,
+  x = 96,
+  y = 53,
   treasure_name = "hookshot",
   sprite = "entities/big_chest",
 }
@@ -4077,6 +4077,26 @@ sensor{
   width = 16,
   height = 16,
   name = "you_win_sensor",
+}
+
+npc{
+  layer = 1,
+  x = 56,
+  y = 37,
+  direction = 3,
+  subtype = "1",
+  sprite = "entities/hint_stone",
+  behavior = "dialog#3sat_puzzle_instructions",
+}
+
+npc{
+  layer = 1,
+  x = 144,
+  y = 37,
+  direction = 3,
+  subtype = "1",
+  sprite = "entities/hint_stone",
+  behavior = "dialog#credits",
 }
 
 tile{

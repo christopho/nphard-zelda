@@ -16,3 +16,46 @@ Vous venez de résoudre un problème
 NP-difficile !
 ]]
 }
+
+dialog{
+  id = "3sat_puzzle_instructions",
+  text = [[
+Bienvenue dans le mini-jeu NP-Zelda.
+
+
+
+Des mathématiciens un peu geeks ont montré
+que résoudre des labyrinthes dans Zelda peut
+être NP-difficile. Ce mini-jeu est une
+implémentation de leur preuve !
+Le labyrinthe que vous vous apprêtez à
+traverser est équivalent à un problème
+NP-difficile bien connu appelé 3-SAT.
+
+Pour jouer, prenez le grappin
+dans le grand coffre et tentez d'atteindre
+la sortie de la salle.
+
+Attention : si vous tombez dans un trou,
+vous devez tout recommencer !
+
+
+C'est un peu pénible, mais
+mathématiquement passionnant !
+Bonne chance !
+]]
+}
+
+dialog{
+  id = "credits",
+  text = [[
+Crédits:
+
+
+
+- Preuve de complexité par G. Aloupis,
+E. D. Demaine, A. Guo et G. Viglietta.
+- Conception du labyrinthe par El Jj.
+- Moteur et implémentation par Christopho.
+]]
+}
