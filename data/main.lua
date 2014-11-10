@@ -21,6 +21,7 @@ function sol.main:on_started()
     -- Do whatever you want next, like showing your title screen
     -- or starting a game.
     local game = sol.game.load("save1.dat")
+    game:get_item("hookhost"):set_variant(1)
     game:start()
   end
 
