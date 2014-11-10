@@ -1,0 +1,17 @@
+dialog{
+  id = "_treasure.hookshot.1",
+  icon = 6,
+  text = [[
+You found the Hookshot!
+Press X to fly to
+inaccessible places!
+]]
+}
+
+dialog{
+  id = "you_win",
+   text = [[
+Congratulations!
+You just solved an NP-hard problem!
+]]
+}

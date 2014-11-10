@@ -72,6 +72,24 @@ tile{
 
 tile{
   layer = 1,
+  x = 648,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "257",
+}
+
+tile{
+  layer = 1,
+  x = 632,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "262",
+}
+
+tile{
+  layer = 1,
   x = 64,
   y = 640,
   width = 16,
@@ -138,7 +156,7 @@ tile{
   x = 640,
   y = 200,
   width = 48,
-  height = 400,
+  height = 448,
   pattern = "540",
 }
 
@@ -686,7 +704,7 @@ tile{
   layer = 1,
   x = 432,
   y = 48,
-  width = 160,
+  width = 176,
   height = 32,
   pattern = "540",
 }
@@ -695,7 +713,7 @@ tile{
   layer = 1,
   x = 432,
   y = 40,
-  width = 160,
+  width = 176,
   height = 8,
   pattern = "179",
 }
@@ -930,7 +948,7 @@ tile{
   x = 640,
   y = 208,
   width = 8,
-  height = 392,
+  height = 408,
   pattern = "71",
 }
 
@@ -939,7 +957,7 @@ tile{
   x = 680,
   y = 152,
   width = 8,
-  height = 448,
+  height = 496,
   pattern = "238",
 }
 
@@ -3546,24 +3564,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 632,
-  y = 640,
-  width = 16,
-  height = 16,
-  pattern = "262",
-}
-
-tile{
-  layer = 1,
-  x = 648,
-  y = 640,
-  width = 16,
-  height = 16,
-  pattern = "257",
-}
-
-tile{
-  layer = 1,
   x = 280,
   y = 544,
   width = 32,
@@ -3659,6 +3659,42 @@ tile{
   width = 40,
   height = 8,
   pattern = "70",
+}
+
+tile{
+  layer = 1,
+  x = 640,
+  y = 616,
+  width = 8,
+  height = 8,
+  pattern = "69",
+}
+
+tile{
+  layer = 1,
+  x = 640,
+  y = 640,
+  width = 8,
+  height = 8,
+  pattern = "69",
+}
+
+tile{
+  layer = 1,
+  x = 648,
+  y = 640,
+  width = 32,
+  height = 8,
+  pattern = "70",
+}
+
+tile{
+  layer = 1,
+  x = 680,
+  y = 640,
+  width = 8,
+  height = 8,
+  pattern = "69",
 }
 
 chest{
@@ -3894,7 +3930,7 @@ chest{
 
 chest{
   layer = 1,
-  x = 352,
+  x = 336,
   y = 509,
   sprite = "entities/chest",
 }
@@ -3916,7 +3952,7 @@ chest{
 chest{
   layer = 1,
   x = 512,
-  y = 301,
+  y = 317,
   sprite = "entities/chest",
 }
 
@@ -4017,6 +4053,30 @@ block{
   pushable = true,
   pullable = false,
   maximum_moves = 1,
+}
+
+chest{
+  layer = 1,
+  x = 72,
+  y = 61,
+  treasure_name = "hookshot",
+  sprite = "entities/big_chest",
+}
+
+destination{
+  layer = 1,
+  x = 32,
+  y = 93,
+  direction = 0,
+}
+
+sensor{
+  layer = 1,
+  x = 32,
+  y = 637,
+  width = 16,
+  height = 16,
+  name = "you_win_sensor",
 }
 
 tile{

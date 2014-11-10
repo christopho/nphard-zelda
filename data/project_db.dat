@@ -83,6 +83,7 @@ sprite{ id = "hud/gameover_fade", description = "HUD: Game-over fade" }
 sprite{ id = "enemies/enemy_killed", description = "Enemy killed" }
 sprite{ id = "enemies/tentacle", description = "Enemy: Tentacle" }
 sprite{ id = "menus/hero_head", description = "Menu: hero head" }
+sprite{ id = "entities/big_chest", description = "Chest (big)" }
 
 music{ id = "agahnim", description = "Agahnim theme" }
 music{ id = "beginning", description = "Beginning" }
@@ -203,8 +204,10 @@ sound{ id = "world_warp", description = "world_warp" }
 sound{ id = "wrong", description = "wrong" }
 sound{ id = "zora", description = "zora" }
 
+item{ id = "hookshot", description = "Hookshot" }
 
 
 
 language{ id = "en", description = "English" }
+language{ id = "fr", description = "Français" }
 
