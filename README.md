@@ -1,5 +1,8 @@
+# NP-hard Zelda
+
 NP-hard Zelda is a mini-game where you have to solve an NP-hard maze.
-To play it, you need the Solarus engine.
+To play it, download the [Solarus engine](http://www.solarus-games.org/download)
+and run Solarus with the data directory of NP-hard Zelda in the same folder.
 
 This game is slightly boring, but computationally fascinating!
 
