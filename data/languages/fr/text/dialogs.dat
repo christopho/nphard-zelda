@@ -20,7 +20,7 @@ NP-difficile !
 dialog{
   id = "3sat_puzzle_instructions",
   text = [[
-Bienvenue dans le mini-jeu NP-Zelda.
+Bienvenue dans NP-hard Zelda.
 
 
 

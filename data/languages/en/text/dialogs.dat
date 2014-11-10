@@ -18,7 +18,7 @@ You just solved an NP-hard problem!
 dialog{
   id = "3sat_puzzle_instructions",
   text = [[
-Welcome to the NP-Zelda puzzle.
+Welcome to NP-hard Zelda.
 
 
 
