@@ -3,6 +3,8 @@ properties{
   y = 0,
   width = 728,
   height = 720,
+  min_layer = 0,
+  max_layer = 2,
   tileset = "palace_purple",
   music = "dark_world_dungeon",
 }

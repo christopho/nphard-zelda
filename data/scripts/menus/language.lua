@@ -20,13 +20,13 @@ function language_menu:on_started()
     self.max_visible_languages = 10
     self.nb_visible_languages = math.min(#ids, self.max_visible_languages)
     self.languages = {}
-    local font, font_size = "minecraftia", 12
+    local font, font_size = "minecraftia", 8
     for _, id in ipairs(ids) do
       local language = {}
       language.id = id
       language.text = sol.text_surface.create{
         font = font,
-        -- font_size = font_size,  -- Solarus 1.4 or greater
+        font_size = font_size,
         text = sol.language.get_language_name(id),
         horizontal_alignment = "center"
       }
